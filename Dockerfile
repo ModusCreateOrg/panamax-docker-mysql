@@ -2,7 +2,7 @@ FROM ubuntu:quantal
 MAINTAINER Chaitanya Akkineni <chaitanya.akkineni@savvis.com>
 
 # Install packages
-RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get -y upgrade && DEBIAN_FRONTEND=noninteractive apt-get -y install supervisor mysql-server pwgen
+RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get -y upgrade
 
 # Add image configuration and scripts
 RUN apt-get install -y mysql-server
