@@ -1,7 +1,8 @@
 panamax-mysql
 ============
 
-    Example usage: $ docker run -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=pass@word01 panamax/panamax-docker-mysql
+Example usage: 
+     `$ docker run -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=pass@word01 panamax/panamax-docker-mysql`
 
 Environment variables
 ---------------------
