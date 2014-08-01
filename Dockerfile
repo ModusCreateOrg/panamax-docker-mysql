@@ -1,4 +1,4 @@
-FROM ubuntu:quantal
+FROM ubuntu:12.04
 MAINTAINER Chaitanya Akkineni <chaitanya.akkineni@savvis.com>
 
 # Install packages
